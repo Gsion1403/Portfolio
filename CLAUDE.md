@@ -60,8 +60,8 @@ Quy ước hình ảnh & font:
 
 - Chỉ dùng **HTML/CSS/JavaScript thuần** — không framework, không build tool, không cần cài đặt gì.
 - Mọi tài nguyên phải **miễn phí 100%**: Google Fonts, icon từ CDN miễn phí, không dịch vụ trả phí.
-- Website phải **chạy được khi mở `index.html` trực tiếp** trong trình duyệt (chưa chốt nơi deploy).
-- Sẵn sàng deploy miễn phí lên GitHub Pages hoặc Netlify khi anh Công quyết định.
+- Website phải **chạy được khi mở `index.html` trực tiếp** trong trình duyệt.
+- **Đã deploy lên GitHub Pages**: kho `https://github.com/Gsion1403/Porfolio` (branch `main`), link công khai `https://gsion1403.github.io/Porfolio/`. Sau mỗi lần sửa, commit + push lên `main` là trang tự cập nhật sau 1–2 phút.
 
 ## 6. Tiêu chuẩn "ấn tượng với nhà tuyển dụng"
 
