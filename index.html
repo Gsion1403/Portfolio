@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Võ Thanh Công | HR Generalist & Talent Acquisition</title>
+    <meta name="description" id="meta-desc" content="Portfolio của Võ Thanh Công — HR Generalist & Talent Acquisition với 3+ năm kinh nghiệm tuyển dụng, vận hành nhân sự và ứng dụng AI vào HR.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== Header ===== -->
+<header class="header" id="header">
+    <div class="container nav-wrap">
+        <a href="#home" class="logo">Công<span>.HR</span></a>
+
+        <nav class="nav" id="nav">
+            <a href="#home" class="nav-link active" data-i18n="nav.home">Trang chủ</a>
+            <a href="#about" class="nav-link" data-i18n="nav.about">Giới thiệu</a>
+            <a href="#expertise" class="nav-link" data-i18n="nav.expertise">Chuyên môn</a>
+            <a href="#journey" class="nav-link" data-i18n="nav.journey">Hành trình</a>
+            <a href="#skills" class="nav-link" data-i18n="nav.skills">Kỹ năng</a>
+            <a href="#projects" class="nav-link" data-i18n="nav.projects">Dự án</a>
+            <a href="#contact" class="nav-link" data-i18n="nav.contact">Liên hệ</a>
+        </nav>
+
+        <div class="nav-actions">
+            <button class="lang-toggle" id="lang-toggle" aria-label="Switch language">
+                <span class="lang-opt" data-lang-opt="vi">VI</span><span class="lang-sep">/</span><span class="lang-opt" data-lang-opt="en">EN</span>
+            </button>
+            <button class="icon-btn" id="theme-toggle" aria-label="Đổi giao diện sáng/tối">
+                <i class="uil uil-moon" id="theme-icon"></i>
+            </button>
+            <button class="icon-btn menu-btn" id="menu-toggle" aria-label="Mở menu">
+                <i class="uil uil-bars"></i>
+            </button>
+        </div>
+    </div>
+    <!-- Mobile drawer -->
+    <nav class="mobile-nav" id="mobile-nav">
+        <a href="#home" class="mobile-link" data-i18n="nav.home">Trang chủ</a>
+        <a href="#about" class="mobile-link" data-i18n="nav.about">Giới thiệu</a>
+        <a href="#expertise" class="mobile-link" data-i18n="nav.expertise">Chuyên môn</a>
+        <a href="#journey" class="mobile-link" data-i18n="nav.journey">Hành trình</a>
+        <a href="#skills" class="mobile-link" data-i18n="nav.skills">Kỹ năng</a>
+        <a href="#projects" class="mobile-link" data-i18n="nav.projects">Dự án</a>
+        <a href="#contact" class="mobile-link" data-i18n="nav.contact">Liên hệ</a>
+    </nav>
+</header>
+
+<main>
+<!-- ===== 1. Hero ===== -->
+<section class="hero section" id="home">
+    <div class="container hero-grid">
+        <div class="hero-content">
+            <span class="stage-chip"><span class="dot"></span><span data-i18n="hero.eyebrow">Xin chào, tôi là</span></span>
+            <h1 class="hero-name">Võ Thanh Công</h1>
+            <h2 class="hero-role" data-i18n="hero.role">HR Generalist &amp; Talent Acquisition</h2>
+            <p class="hero-tagline" data-i18n="hero.tagline">Hơn 3 năm đồng hành xây dựng đội ngũ cho doanh nghiệp — từ tuyển dụng, vận hành nhân sự đến văn hóa nội bộ. Tiên phong ứng dụng AI (ChatGPT, Claude, Gemini) để quy trình HR nhanh hơn và thông minh hơn.</p>
+
+            <div class="hero-btns">
+                <a href="CV%20ref/V%C3%B5%20Thanh%20C%C3%B4ng_HR%20Generalist%20(2).pdf" download class="btn btn-primary">
+                    <i class="uil uil-import"></i><span data-i18n="hero.downloadCv">Tải CV (PDF)</span>
+                </a>
+                <a href="#contact" class="btn btn-ghost"><span data-i18n="hero.contact">Liên hệ ngay</span></a>
+            </div>
+
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-num"><span data-count="3">0</span>+</span>
+                    <span class="stat-label" data-i18n="hero.statYears">Năm kinh nghiệm</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num"><span data-count="5">0</span></span>
+                    <span class="stat-label" data-i18n="hero.statCompanies">Công ty đa lĩnh vực</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num"><span data-count="50">0</span>+</span>
+                    <span class="stat-label" data-i18n="hero.statHires">Vị trí tuyển thành công</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-visual reveal">
+            <div class="hero-photo-frame">
+                <img src="picture/avatar1-web.jpg" alt="Võ Thanh Công" class="hero-photo">
+            </div>
+            <!-- Signature: thẻ "trạng thái ứng viên" của chính anh Công — như hồ sơ active trên ATS -->
+            <div class="pipeline-card" aria-hidden="true">
+                <div class="pipeline-step status"><span class="status-dot"></span><span data-i18n="hero.pipe1">Sẵn sàng nhận việc</span></div>
+                <div class="pipeline-step"><i class="uil uil-briefcase-alt"></i><span data-i18n="hero.pipe2">3+ năm HR đa ngành</span></div>
+                <div class="pipeline-step"><i class="uil uil-bolt-alt"></i><span data-i18n="hero.pipe3">Phản hồi trong 24h</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== 2. About ===== -->
+<section class="section" id="about">
+    <div class="container">
+        <div class="section-head reveal">
+            <span class="stage-chip"><span class="dot"></span><span data-i18n="about.chip">Về tôi</span></span>
+            <h2 class="section-title" data-i18n="about.title">Giới thiệu</h2>
+        </div>
+
+        <div class="about-grid">
+            <div class="about-photo-wrap reveal">
+                <img src="picture/avatar.jpg" alt="Võ Thanh Công" class="about-photo">
+            </div>
+            <div class="about-body reveal">
+                <h3 class="about-heading" data-i18n="about.heading">Kết nối đúng người với đúng mục tiêu của doanh nghiệp</h3>
+                <p class="about-text" data-i18n="about.p1">Tôi tốt nghiệp chuyên ngành Quản trị nguồn nhân lực tại Trường Đại học Kinh tế – Đại học Đà Nẵng, và bén duyên với nghề tuyển dụng từ khi còn là sinh viên qua vai trò Talent Acquisition Leader (remote) cho một công ty IT. Hơn 3 năm qua, tôi làm việc tại FPT Telecom, Fish Golden, COF Incorporate và COWI Group, trưởng thành từ vị trí thực tập sinh lên HR Generalist phụ trách trọn vòng đời nhân sự, với trải nghiệm đa ngành: viễn thông, FMCG và thương mại điện tử. Phần lớn trong số đó là môi trường startup, nơi tôi trực tiếp xây hệ thống HR từ những viên gạch đầu tiên — trải nghiệm cho tôi thói quen bắt tay vào việc khó mà không cần ai dọn đường trước.</p>
+                <p class="about-text" data-i18n="about.p2">Với tôi, giá trị của người làm HR nằm ở ba việc: chọn đúng người, xây đúng chính sách và giữ được nhân tài cho tổ chức. Tôi chủ động đưa AI (ChatGPT, Claude, Gemini) vào công việc hằng ngày — từ viết JD, sàng lọc hồ sơ đến tổng hợp báo cáo — để rút ngắn đáng kể thời gian xử lý. Bên cạnh đó, kinh nghiệm điều phối dự án Marketing freelance từ năm 2022 giúp tôi hiểu rõ đặc thù công việc của ứng viên Marketing và đánh giá họ chính xác hơn khi tuyển dụng.</p>
+
+                <ul class="about-facts">
+                    <li><span class="fact-label" data-i18n="about.emailLabel">Email</span><a href="mailto:congvo1403@gmail.com">congvo1403@gmail.com</a></li>
+                    <li><span class="fact-label" data-i18n="about.phoneLabel">Điện thoại</span><a href="tel:0352473284">0352 473 284</a></li>
+                    <li><span class="fact-label" data-i18n="about.langLabel">Ngôn ngữ</span><span data-i18n="about.langValue">Tiếng Việt, Tiếng Anh</span></li>
+                    <li><span class="fact-label" data-i18n="about.interestLabel">Sở trường khác</span><span data-i18n="about.interestValue">MC – hoạt náo, content, thiết kế cơ bản</span></li>
+                </ul>
+
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/v%C3%B5-thanh-c%C3%B4ng-910a711b0/" target="_blank" rel="noopener" class="social-btn" aria-label="LinkedIn"><img src="picture/icons/linkedin.svg" alt="LinkedIn"></a>
+                    <a href="https://www.facebook.com/gsion1404/" target="_blank" rel="noopener" class="social-btn" aria-label="Facebook"><img src="picture/icons/facebook.svg" alt="Facebook"></a>
+                    <a href="https://zalo.me/0352473284" target="_blank" rel="noopener" class="social-btn" aria-label="Zalo"><img src="picture/icons/zalo.svg" alt="Zalo"></a>
+                    <a href="mailto:congvo1403@gmail.com" class="social-btn" aria-label="Email"><img src="picture/icons/gmail.svg" alt="Gmail"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== 3. Expertise ===== -->
+<section class="section section-alt" id="expertise">
+    <div class="container">
+        <div class="section-head reveal">
+            <span class="stage-chip"><span class="dot"></span><span data-i18n="exp.chip">Tôi làm được gì</span></span>
+            <h2 class="section-title" data-i18n="exp.title">Chuyên môn</h2>
+        </div>
+
+        <div class="cards-4">
+            <article class="exp-card reveal">
+                <div class="exp-icon"><i class="uil uil-user-plus"></i></div>
+                <h3 data-i18n="exp.c1title">Tuyển dụng &amp; Headhunt</h3>
+                <p data-i18n="exp.c1desc">Tuyển thành công 50+ vị trí từ nhân viên đến cấp trưởng phòng: Sales, ABM, Trưởng phòng Sales/Marketing, đội ngũ Marketing (Content, Designer, Editor, VJ), Livestream, CSKH, BO, Sales Admin... Lead dự án headhunt Cowi Works.</p>
+            </article>
+            <article class="exp-card reveal">
+                <div class="exp-icon"><i class="uil uil-chart-growth"></i></div>
+                <h3 data-i18n="exp.c2title">Hiệu suất &amp; Vận hành</h3>
+                <p data-i18n="exp.c2desc">Giám sát hiệu suất theo tuần, chấm công và hỗ trợ tính lương, tham gia xây dựng chính sách – quy chế, quản lý hồ sơ lao động và tài sản văn phòng.</p>
+            </article>
+            <article class="exp-card reveal">
+                <div class="exp-icon"><i class="uil uil-heart-alt"></i></div>
+                <h3 data-i18n="exp.c3title">Văn hóa &amp; Sự kiện</h3>
+                <p data-i18n="exp.c3desc">Xây dựng văn hóa doanh nghiệp, quy trình onboarding; tổ chức sinh nhật, teambuilding và các sự kiện nội bộ — kiêm luôn vai trò MC hoạt náo.</p>
+            </article>
+            <article class="exp-card reveal">
+                <div class="exp-icon"><i class="uil uil-robot"></i></div>
+                <h3 data-i18n="exp.c4title">AI trong HR</h3>
+                <p data-i18n="exp.c4desc">Ứng dụng ChatGPT, Claude, Gemini vào công việc hằng ngày: viết JD, sàng lọc hồ sơ, content tuyển dụng, tổng hợp báo cáo — tiết kiệm đáng kể thời gian xử lý.</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- ===== 4. Journey (timeline) ===== -->
+<section class="section" id="journey">
+    <div class="container">
+        <div class="section-head reveal">
+            <span class="stage-chip"><span class="dot"></span><span data-i18n="jn.chip">Học vấn &amp; Kinh nghiệm</span></span>
+            <h2 class="section-title" data-i18n="jn.title">Hành trình</h2>
+        </div>
+
+        <div class="timeline">
+            <!-- Unilever CDF -->
+            <div class="tl-item reveal">
+                <div class="tl-dot"></div>
+                <div class="tl-card tl-edu">
+                    <span class="tl-period">06/2026</span>
+                    <h3 class="tl-company">UNILEVER — CDF</h3>
+                    <span class="tl-role" data-i18n="jn.cdfRole">Cuộc thi Giám sát Kinh doanh Tài năng</span>
+                    <p class="tl-summary" data-i18n="jn.cdfSum">Vượt qua vòng tuyển chọn của cuộc thi CDF. Tham gia để trải nghiệm quy trình đánh giá ứng viên của tập đoàn đa quốc gia từ góc nhìn người dự tuyển — chất liệu thực tế quý giá cho nghề tuyển dụng.</p>
+                    <div class="tl-tools">
+                        <span class="tool-chip">Unilever</span><span class="tool-chip" data-i18n="jn.cdfTag">Đậu vòng tuyển chọn</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- COWI GROUP -->
+            <div class="tl-item reveal">
+                <div class="tl-dot"></div>
+                <div class="tl-card">
+                    <span class="tl-period">12/2024 — 01/2026</span>
+                    <h3 class="tl-company">COWI GROUP</h3>
+                    <span class="tl-role">HR Generalist</span>
+                    <p class="tl-summary" data-i18n="jn.j1sum">Phụ trách toàn diện mảng nhân sự, làm việc trực tiếp với CEO và các phòng ban.</p>
+                    <ul class="tl-list">
+                        <li data-i18n="jn.j1b1">Lập kế hoạch và tuyển dụng các vị trí Digital Marketing, BO; sourcing qua Facebook, LinkedIn; xây dựng database ứng viên và đánh giá hiệu quả từng kênh.</li>
+                        <li data-i18n="jn.j1b2">Lead dự án Cowi Works — headhunt, cung ứng nhân sự Marketing: tìm kiếm và thương lượng dịch vụ với khách hàng.</li>
+                        <li data-i18n="jn.j1b3">Giám sát hiệu suất theo tuần; hỗ trợ chấm công – tính lương; tham gia xây dựng chính sách, quy chế, quy định công ty.</li>
+                        <li data-i18n="jn.j1b4">Duy trì hoạt động văn hóa doanh nghiệp, onboarding – offboarding.</li>
+                    </ul>
+                    <div class="tl-tools">
+                        <span class="tool-chip">Facebook</span><span class="tool-chip">LinkedIn</span><span class="tool-chip">Excel</span><span class="tool-chip">AI</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- COF INCORPORATE -->
+            <div class="tl-item reveal">
+                <div class="tl-dot"></div>
+                <div class="tl-card">
+                    <span class="tl-period">01/2024 — 10/2024</span>
+                    <h3 class="tl-company">COF INCORPORATE</h3>
+                    <span class="tl-role">HR Generalist</span>
+                    <p class="tl-summary" data-i18n="jn.j2sum">Kiêm nhiệm cả tuyển dụng lẫn hành chính – nhân sự cho công ty thương mại điện tử.</p>
+                    <ul class="tl-list">
+                        <li data-i18n="jn.j2b1">Tuyển dụng khối BO, Livestream, Affiliate TikTok qua Facebook, Zalo, LinkedIn, Threads, TikTok; sàng lọc, phỏng vấn và hoàn tất đánh giá thử việc.</li>
+                        <li data-i18n="jn.j2b2">Xây dựng quy trình onboarding và văn hóa doanh nghiệp; tổ chức sinh nhật, teambuilding cho CBNV.</li>
+                        <li data-i18n="jn.j2b3">Tự thiết kế poster tuyển dụng bằng Canva.</li>
+                        <li data-i18n="jn.j2b4">Chấm công – tính lương, chính sách thưởng, quản lý tài sản và thiết bị văn phòng.</li>
+                    </ul>
+                    <div class="tl-tools">
+                        <span class="tool-chip">Canva</span><span class="tool-chip">TikTok</span><span class="tool-chip">Zalo</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FISH GOLDEN -->
+            <div class="tl-item reveal">
+                <div class="tl-dot"></div>
+                <div class="tl-card">
+                    <span class="tl-period">01/2023 — 12/2023</span>
+                    <h3 class="tl-company">FISH GOLDEN</h3>
+                    <span class="tl-role">Talent Acquisition</span>
+                    <p class="tl-summary" data-i18n="jn.j3sum">Tuyển dụng khối lượng lớn cho ngành Cosmetic – FMCG.</p>
+                    <ul class="tl-list">
+                        <li data-i18n="jn.j3b1">Tuyển các vị trí BO, Mass, Sales qua Facebook, LinkedIn, Zalo; khai thác nguồn ứng viên mới, báo cáo tuyển dụng theo tuần.</li>
+                        <li data-i18n="jn.j3b2">Sàng lọc – sơ vấn điện thoại, tham gia phỏng vấn, đánh giá thử việc.</li>
+                        <li data-i18n="jn.j3b3">Tổ chức sinh nhật, teambuilding; hỗ trợ quản lý tài sản, thiết bị văn phòng.</li>
+                    </ul>
+                    <div class="tl-tools">
+                        <span class="tool-chip">Facebook</span><span class="tool-chip">Zalo</span><span class="tool-chip">Excel</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FPT TELECOM -->
+            <div class="tl-item reveal">
+                <div class="tl-dot"></div>
+                <div class="tl-card">
+                    <span class="tl-period">02/2022 — 06/2022</span>
+                    <h3 class="tl-company">FPT TELECOM</h3>
+                    <span class="tl-role" data-i18n="jn.j4role">Thực tập sinh Hành chính – Nhân sự</span>
+                    <p class="tl-summary" data-i18n="jn.j4sum">Bước đệm thực chiến đầu tiên trong môi trường doanh nghiệp lớn.</p>
+                    <ul class="tl-list">
+                        <li data-i18n="jn.j4b1">Hỗ trợ đăng tin, sàng lọc hồ sơ, sơ vấn điện thoại và takecare ứng viên phỏng vấn.</li>
+                        <li data-i18n="jn.j4b2">Lập bảng theo dõi tình hình tuyển dụng, báo cáo theo tháng; hỗ trợ công tác phí, báo giá, quản lý thiết bị.</li>
+                    </ul>
+                    <div class="tl-tools">
+                        <span class="tool-chip">Excel</span><span class="tool-chip">Word</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- GPT GROUP -->
+            <div class="tl-item reveal">
+                <div class="tl-dot"></div>
+                <div class="tl-card">
+                    <span class="tl-period">10/2021 — 05/2022</span>
+                    <h3 class="tl-company">GPT GROUP</h3>
+                    <span class="tl-role">Talent Acquisition Leader (Remote)</span>
+                    <p class="tl-summary" data-i18n="jn.j5sum">Dẫn dắt nhóm tuyển dụng IT từ xa khi còn là sinh viên năm cuối.</p>
+                    <ul class="tl-list">
+                        <li data-i18n="jn.j5b1">Leader tuyển dụng các vị trí ngành CNTT: lập kế hoạch, tìm nguồn, báo cáo theo tháng.</li>
+                        <li data-i18n="jn.j5b2">Phối hợp xây dựng quy trình – chính sách và đào tạo nhân viên mới.</li>
+                    </ul>
+                    <div class="tl-tools">
+                        <span class="tool-chip">LinkedIn</span><span class="tool-chip">ITviec</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="tl-item reveal">
+                <div class="tl-dot"></div>
+                <div class="tl-card tl-edu">
+                    <span class="tl-period">2018 — 2022</span>
+                    <h3 class="tl-company" data-i18n="jn.eduSchool">Trường Đại học Kinh tế – Đại học Đà Nẵng</h3>
+                    <span class="tl-role" data-i18n="jn.eduMajor">Cử nhân Quản trị nguồn nhân lực</span>
+                    <p class="tl-summary" data-i18n="jn.eduSum">Ban chấp hành đoàn khoa Quản trị Kinh doanh: tổ chức teambuilding tân sinh viên, hội trại, tình nguyện đông; leader BTC các hoạt động thiện nguyện, ngoại khóa.</p>
+                    <div class="tl-tools">
+                        <span class="tool-chip" data-i18n="jn.eduTag1">Hoạt động đoàn</span><span class="tool-chip" data-i18n="jn.eduTag2">Leader BTC</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== 5. Skills ===== -->
+<section class="section section-alt" id="skills">
+    <div class="container">
+        <div class="section-head reveal">
+            <span class="stage-chip"><span class="dot"></span><span data-i18n="sk.chip">Công cụ của tôi</span></span>
+            <h2 class="section-title" data-i18n="sk.title">Kỹ năng</h2>
+        </div>
+
+        <div class="cards-3">
+            <div class="skill-group reveal">
+                <h3 class="skill-group-title"><i class="uil uil-briefcase-alt"></i><span data-i18n="sk.g1">Chuyên môn HR</span></h3>
+                <ul class="skill-list">
+                    <li><i class="uil uil-search-alt"></i><div><strong data-i18n="sk.g1i1">Sourcing đa kênh</strong><span data-i18n="sk.g1i1d">Facebook, LinkedIn, Zalo, TikTok, Threads</span></div></li>
+                    <li><i class="uil uil-comments-alt"></i><div><strong data-i18n="sk.g1i2">Phỏng vấn &amp; đánh giá</strong><span data-i18n="sk.g1i2d">Sơ vấn, phỏng vấn, đánh giá thử việc</span></div></li>
+                    <li><i class="uil uil-file-check-alt"></i><div><strong data-i18n="sk.g1i3">Hành chính nhân sự &amp; C&amp;B cơ bản</strong><span data-i18n="sk.g1i3d">Chấm công, hỗ trợ tính lương, hồ sơ lao động</span></div></li>
+                    <li><i class="uil uil-sitemap"></i><div><strong data-i18n="sk.g1i4">Quy trình &amp; chính sách</strong><span data-i18n="sk.g1i4d">Onboarding, quy chế, quy định công ty</span></div></li>
+                </ul>
+            </div>
+
+            <div class="skill-group reveal">
+                <h3 class="skill-group-title"><i class="uil uil-wrench"></i><span data-i18n="sk.g2">Công cụ</span></h3>
+                <ul class="skill-list">
+                    <li><span class="skill-logo"><img src="picture/icons/excel.svg" alt="Excel"></span><div><strong>Excel</strong><span data-i18n="sk.g2exceld">Chấm công, tính lương, báo cáo dữ liệu</span></div></li>
+                    <li><span class="skill-logo"><img src="picture/icons/word.svg" alt="Word"></span><div><strong>Word</strong><span data-i18n="sk.g2wordd">Hợp đồng, văn bản, tài liệu quy trình</span></div></li>
+                    <li><span class="skill-logo"><img src="picture/icons/powerpoint.svg" alt="PowerPoint"></span><div><strong>PowerPoint</strong><span data-i18n="sk.g2pptd">Slide đào tạo, thuyết trình nội bộ</span></div></li>
+                    <li><span class="skill-logo"><img src="picture/canva.png" alt="Canva"></span><div><strong>Canva</strong><span data-i18n="sk.g2canvad">Poster tuyển dụng, ấn phẩm truyền thông</span></div></li>
+                </ul>
+            </div>
+
+            <div class="skill-group reveal">
+                <h3 class="skill-group-title"><i class="uil uil-robot"></i><span data-i18n="sk.g3">AI Stack</span></h3>
+                <ul class="skill-list">
+                    <li><span class="skill-logo"><img src="picture/icons/chatgpt.svg" alt="ChatGPT"></span><div><strong>ChatGPT</strong><span data-i18n="sk.g3i1d">JD, email, content tuyển dụng</span></div></li>
+                    <li><span class="skill-logo"><img src="picture/icons/claude.svg" alt="Claude"></span><div><strong>Claude</strong><span data-i18n="sk.g3i2d">Phân tích hồ sơ, soạn tài liệu quy trình</span></div></li>
+                    <li><span class="skill-logo"><img src="picture/icons/gemini.svg" alt="Gemini"></span><div><strong>Gemini</strong><span data-i18n="sk.g3i3d">Tổng hợp báo cáo, nghiên cứu thị trường</span></div></li>
+                    <li><i class="uil uil-bolt-alt"></i><div><strong data-i18n="sk.g3i4">Quy trình AI hóa</strong><span data-i18n="sk.g3i4d">Tự động hóa việc lặp lại, tăng tốc xử lý</span></div></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== 6. Projects ===== -->
+<section class="section" id="projects">
+    <div class="container">
+        <div class="section-head reveal">
+            <span class="stage-chip"><span class="dot"></span><span data-i18n="pj.chip">Bằng chứng năng lực</span></span>
+            <h2 class="section-title" data-i18n="pj.title">Dự án</h2>
+        </div>
+
+        <div class="cards-4 project-cards">
+            <article class="pj-card reveal">
+                <div class="pj-icon"><i class="uil uil-rocket"></i></div>
+                <h3>Cowi Works</h3>
+                <span class="pj-tag">Headhunt</span>
+                <!-- TODO: anh kiểm tra số liệu — số khách hàng/deal của Cowi Works -->
+                <p data-i18n="pj.c1desc">Lead dự án headhunt &amp; cung ứng nhân sự Marketing tại COWI Group: tìm kiếm khách hàng, thương lượng hợp đồng dịch vụ, vận hành nguồn ứng viên đáp ứng yêu cầu tuyển gấp.</p>
+            </article>
+            <article class="pj-card reveal">
+                <div class="pj-icon"><i class="uil uil-database"></i></div>
+                <h3 data-i18n="pj.c2title">Database ứng viên</h3>
+                <span class="pj-tag">Data</span>
+                <p data-i18n="pj.c2desc">Xây dựng và quản lý database ứng viên tập trung; đo lường hiệu quả từng kênh sourcing để tối ưu chi phí và thời gian tuyển dụng.</p>
+            </article>
+            <article class="pj-card reveal">
+                <div class="pj-icon"><i class="uil uil-calender"></i></div>
+                <h3 data-i18n="pj.c3title">Sự kiện nội bộ</h3>
+                <span class="pj-tag" data-i18n="pj.c3tag">Sự kiện</span>
+                <!-- TODO: anh kiểm tra số liệu — số sự kiện/quy mô người tham dự -->
+                <p data-i18n="pj.c3desc">Lên kế hoạch và tổ chức chuỗi sinh nhật, teambuilding, chào đón nhân viên mới tại nhiều công ty — trực tiếp làm MC hoạt náo cho chương trình.</p>
+            </article>
+            <article class="pj-card reveal">
+                <div class="pj-icon"><i class="uil uil-palette"></i></div>
+                <h3 data-i18n="pj.c4title">Ấn phẩm tuyển dụng</h3>
+                <span class="pj-tag">Employer Branding</span>
+                <p data-i18n="pj.c4desc">Tự thiết kế bộ poster, ấn phẩm tuyển dụng bằng Canva; viết content đăng tuyển đa nền tảng thu hút ứng viên trẻ.</p>
+            </article>
+            <article class="pj-card reveal">
+                <div class="pj-icon"><i class="uil uil-megaphone"></i></div>
+                <h3 data-i18n="pj.c5title">Điều phối dự án Marketing</h3>
+                <span class="pj-tag">Freelance</span>
+                <p data-i18n="pj.c5desc">Bắt đầu bằng nghề viết content thuê năm 2022, đến 2025 tôi chuyển hẳn sang vai trò đầu mối: làm việc trực tiếp với khách hàng từ báo giá đến nghiệm thu, phân việc và giám sát team 1–4 người. Đã bàn giao 4 dự án, 1 dự án đang chạy.</p>
+            </article>
+        </div>
+
+        <!-- Gallery minh chứng: render từ galleryItems trong script.js; mảng rỗng thì tự ẩn -->
+        <div class="gallery-block" id="gallery-block" hidden>
+            <h3 class="gallery-title" data-i18n="pj.galleryTitle">Minh chứng công việc</h3>
+            <p class="gallery-note" data-i18n="pj.galleryNote">Một số hình ảnh thực tế: database ứng viên, kế hoạch tuyển dụng, báo cáo, sự kiện đã tổ chức (thông tin nhạy cảm đã được che).</p>
+            <div class="gallery-tabs" id="gallery-tabs"></div>
+            <div class="gallery-grid" id="gallery-grid"></div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== 7. Contact ===== -->
+<section class="section section-alt" id="contact">
+    <div class="container">
+        <div class="section-head reveal">
+            <span class="stage-chip"><span class="dot"></span><span data-i18n="ct.chip">Sẵn sàng cho cơ hội mới</span></span>
+            <h2 class="section-title" data-i18n="ct.title">Liên hệ</h2>
+            <p class="section-desc" data-i18n="ct.desc">Cảm ơn anh/chị đã xem đến đây — vậy là hồ sơ của tôi qua vòng sàng lọc rồi nhỉ? Mọi kênh liên hệ đều ở ngay bên dưới, quyền chủ động xin nhường anh/chị. Còn tôi thì... ngồi sẵn cạnh điện thoại rồi 😉</p>
+        </div>
+
+        <div class="contact-wrap">
+            <div class="cta-photo-wrap reveal">
+                <img src="picture/cta-web.jpg" alt="Võ Thanh Công cầm ống nghe điện thoại chờ cuộc gọi" class="cta-photo">
+                <span class="cta-chip">📞 <span data-i18n="ct.photoChip">Đứng chờ điện thoại từ chiều</span></span>
+            </div>
+
+        <div class="contact-grid">
+            <a href="tel:0352473284" class="contact-card reveal">
+                <i class="uil uil-phone"></i>
+                <strong data-i18n="ct.call">Gọi điện</strong>
+                <span>0352 473 284</span>
+            </a>
+            <a href="mailto:congvo1403@gmail.com" class="contact-card reveal">
+                <span class="contact-logo"><img src="picture/icons/gmail.svg" alt="Gmail"></span>
+                <strong>Email</strong>
+                <span>congvo1403@gmail.com</span>
+            </a>
+            <a href="https://zalo.me/0352473284" target="_blank" rel="noopener" class="contact-card reveal">
+                <span class="contact-logo"><img src="picture/icons/zalo.svg" alt="Zalo"></span>
+                <strong>Zalo</strong>
+                <span>0352 473 284</span>
+            </a>
+            <a href="https://www.linkedin.com/in/v%C3%B5-thanh-c%C3%B4ng-910a711b0/" target="_blank" rel="noopener" class="contact-card reveal">
+                <span class="contact-logo"><img src="picture/icons/linkedin.svg" alt="LinkedIn"></span>
+                <strong>LinkedIn</strong>
+                <span data-i18n="ct.linkedin">Hồ sơ chuyên môn</span>
+            </a>
+            <a href="https://www.facebook.com/gsion1404/" target="_blank" rel="noopener" class="contact-card reveal">
+                <span class="contact-logo"><img src="picture/icons/facebook.svg" alt="Facebook"></span>
+                <strong>Facebook</strong>
+                <span>@gsion1404</span>
+            </a>
+        </div>
+        </div>
+    </div>
+</section>
+</main>
+
+<footer class="footer">
+    <div class="container footer-wrap">
+        <span>© 2026 Võ Thanh Công</span>
+        <span data-i18n="ft.made">HR Generalist &amp; Talent Acquisition</span>
+    </div>
+</footer>
+
+<!-- Lightbox cho gallery -->
+<div class="lightbox" id="lightbox" hidden>
+    <button class="lightbox-close" id="lightbox-close" aria-label="Đóng"><i class="uil uil-times"></i></button>
+    <img alt="" id="lightbox-img">
+    <p class="lightbox-caption" id="lightbox-caption"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
