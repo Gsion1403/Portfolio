@@ -45,7 +45,7 @@ d:\CV design\
 
 Quy ước hình ảnh & font:
 - **Font**: heading dùng `Archivo`, body dùng `Be Vietnam Pro` (Google Fonts). ⚠️ KHÔNG dùng font thiếu bộ ký tự tiếng Việt (Sora, Space Grotesk...) — chữ có dấu sẽ bị lai font rất xấu.
-- **Ảnh hero dùng `picture/avatar1.jpg`** (bản nén cho web: `picture/avatar1-web.jpg`); `avatar.jpg` dùng cho phần About.
+- **Ảnh hero dùng `picture/avatar1-hero.jpg`** (bản cắt phóng vào chủ thể từ `avatar1.jpg` gốc — ảnh gốc chụp rộng, nếu dùng thẳng sẽ bị lọt thỏm trên mobile); `avatar.jpg` dùng cho phần About.
 - **Logo thương hiệu** (Word, Excel, PowerPoint, Photoshop, ChatGPT, Claude, Gemini, Gmail, Facebook, LinkedIn, Zalo): dùng SVG chính thức đã tải sẵn trong `picture/icons/` (nguồn Wikimedia Commons, miễn phí); riêng Canva dùng `picture/canva.png`. KHÔNG dùng các file logo raster cũ khác trong `picture/` (Microsoft_Excel.png, word.png...) — chất lượng thấp. Icon khái niệm (không có thương hiệu) dùng Unicons CDN.
 - **Gallery minh chứng**: ảnh đặt trong thư mục `gallery/`, khai báo thêm 1 dòng vào mảng `galleryItems` trong `script.js` (`{src, category, captionVi, captionEn}`). Mảng rỗng thì gallery tự ẩn. ⚠️ Ảnh database ứng viên/báo cáo phải che hoặc làm mờ thông tin cá nhân trước khi upload.
 
