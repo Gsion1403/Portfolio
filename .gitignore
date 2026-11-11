@@ -1,2 +1,6 @@
 .DS_Store
 BRIEF-*.md
+# Tài liệu gốc (Word/Excel) chỉ dùng để trích ảnh minh chứng, không đưa lên web công khai
+gallery/*.docx
+gallery/*.doc
+gallery/*.xlsx

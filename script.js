@@ -220,6 +220,26 @@ const translations = {
    ⚠️ Nhớ che/làm mờ thông tin cá nhân của ứng viên trước khi upload. */
 const galleryItems = [
     {
+        src: "gallery/dashboard-tuyen-dung.jpg", category: "report",
+        captionVi: "Dashboard tuyển dụng tự xây cho chuỗi F&B: đồng bộ tự động từ file tracking, theo dõi tỷ lệ chuyển đổi theo kênh, nhu cầu theo khối và giữ chân nhân sự (tên đơn vị đã ẩn)",
+        captionEn: "Recruitment dashboard I built for an F&B chain: auto-synced from the tracking file, showing channel conversion, demand by division and retention (company names hidden)"
+    },
+    {
+        src: "gallery/tracking-ung-vien.jpg", category: "database",
+        captionVi: "Hệ thống tracking ứng viên trên Google Sheets: 28 cột theo dõi trọn pipeline, báo cáo tự động bằng công thức (bản mẫu, không chứa dữ liệu ứng viên)",
+        captionEn: "Candidate tracking system in Google Sheets: 28 fields covering the full pipeline, with formula-driven reports (template, no candidate data)"
+    },
+    {
+        src: "gallery/quy-trinh-tuyen-dung-luu-do.jpg", category: "plan",
+        captionVi: "Quy trình tuyển dụng liên phòng ban theo chuẩn ISO 9001 do tôi xây dựng: lưu đồ 10 bước với các điểm phê duyệt",
+        captionEn: "Cross-department recruitment process I designed to ISO 9001: a 10-step flowchart with approval checkpoints"
+    },
+    {
+        src: "gallery/quy-trinh-tuyen-dung-dien-giai.jpg", category: "plan",
+        captionVi: "Diễn giải quy trình tuyển dụng: trách nhiệm, biểu mẫu và thời gian chuẩn cho từng bước",
+        captionEn: "Recruitment process breakdown: owner, forms and standard lead time for each step"
+    },
+    {
         src: "gallery/dashboard-bao-cao.png", category: "report",
         captionVi: "Dashboard báo cáo tuyển dụng 7 tuần: 152 ứng viên → 20 tuyển thành công, time-to-fill trung bình 20,4 ngày",
         captionEn: "7-week recruitment dashboard: 152 candidates → 20 hires, average time-to-fill of 20.4 days"

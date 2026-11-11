@@ -51,6 +51,25 @@ Quy ước hình ảnh & font:
 - **Ảnh hero dùng `picture/avatar1-hero.jpg`** (bản cắt phóng vào chủ thể từ `avatar1.jpg` gốc — ảnh gốc chụp rộng, nếu dùng thẳng sẽ bị lọt thỏm trên mobile); `avatar.jpg` dùng cho phần About.
 - **Logo thương hiệu** (Word, Excel, PowerPoint, Photoshop, ChatGPT, Claude, Gemini, Gmail, Facebook, LinkedIn, Zalo): dùng SVG chính thức đã tải sẵn trong `picture/icons/` (nguồn Wikimedia Commons, miễn phí); riêng Canva dùng `picture/canva.png`. KHÔNG dùng các file logo raster cũ khác trong `picture/` (Microsoft_Excel.png, word.png...) — chất lượng thấp. Icon khái niệm (không có thương hiệu) dùng Unicons CDN.
 - **Gallery minh chứng**: ảnh đặt trong thư mục `gallery/`, khai báo thêm 1 dòng vào mảng `galleryItems` trong `script.js` (`{src, category, captionVi, captionEn}`). Mảng rỗng thì gallery tự ẩn. ⚠️ Ảnh database ứng viên/báo cáo phải che hoặc làm mờ thông tin cá nhân trước khi upload.
+  - Ảnh dùng định dạng `.jpg`, rộng tối đa ~1800px để web nhẹ.
+  - **Tài liệu của công ty đang làm (Vietart)**: anh Công đồng ý đưa lên với điều kiện **ẩn tên đơn vị** (VAFB, VietArt, 43Town, tên nhà hàng/cửa hàng) và **không có dữ liệu cá nhân ứng viên** (tên, SĐT, lý do nghỉ...). Số liệu tổng hợp (KPI, tỷ lệ) được giữ. File Google Sheet thì chụp từ **bản sao đã xoá dữ liệu**, không chụp file gốc.
+  - File gốc Word/Excel bỏ vào `gallery/` chỉ để trích ảnh — đã chặn bằng `.gitignore`, không đưa lên web.
+
+## 3b. Nhật ký cập nhật & các quyết định đã chốt
+
+**Đợt 11/2026** (chuyển sang máy Mac, cập nhật Vietart):
+- Thêm thẻ **Vietart F&B (43Town)** — Chuyên viên Tuyển dụng, 08/2026 — Nay, đứng đầu mục Hành trình.
+- **Unilever – CDFresh Program**: anh Công **trúng tuyển** nhưng **không tham gia** vì lý do cá nhân. Trên web chỉ ghi "trúng tuyển" (phương án ngắn), KHÔNG nêu lý do, KHÔNG gọi là "cuộc thi". Trên CV: nằm ở mục **THÀNH TÍCH** (cột trái), không xếp vào Kinh nghiệm.
+- **Số công ty = 6** (FPT Telecom, GPT Group, Fish Golden, COF, COWI, Vietart). Unilever không tính.
+- **Số năm kinh nghiệm**: theo CV, hiện là "Hơn 3 năm" / "3+".
+- Đoạn Giới thiệu: Vietart là nơi anh tập trung chủ yếu vào tuyển dụng (vẫn phụ trách vòng đời nhân sự).
+- Giữ nguyên dòng "Sẵn sàng nhận việc / Open to work" — anh Công đã chốt.
+- Ảnh `gallery/thong-tin-ung-vien.png` là biểu mẫu anh Công tự xây, không chứa dữ liệu thật — giữ nguyên.
+- Mốc freelance trong `pj.c5desc` ghi năm 2022 là đúng — giữ nguyên.
+- CV gốc trên Canva (bản HR Generalist): xuất PDF → `CV ref/Võ Thanh Công_HR Generalist.pdf`. Tên file có dấu phải lưu dạng Unicode NFC, link trong `index.html` mã hoá `%20`, `%C3%B5`... Thay CV thì xoá file cũ.
+- Gợi ý chưa làm: thêm Unilever CDFresh vào 2 bản CV hướng Sales (B2B, B2C).
+
+**Máy Mac đã cài sẵn**: Git, GitHub CLI (`gh`, đã đăng nhập tài khoản Gsion1403), Homebrew, Node, Python, Chrome. Cấu hình Git: `Vo Thanh Cong` / `congvo1403@gmail.com`.
 
 ## 4. Tính năng bắt buộc
 
