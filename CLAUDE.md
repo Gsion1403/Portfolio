@@ -25,21 +25,24 @@ Trong dự án này, Claude đóng vai **chuyên gia kép**:
 - Facebook: `https://www.facebook.com/gsion1404/`
 - Tốt nghiệp chuyên ngành Quản trị nguồn nhân lực, Trường Đại học Kinh tế – Đại học Đà Nẵng (2018–2022).
 - Thế mạnh: Tuyển dụng (TA), Quản lý hiệu suất, Vận hành văn phòng, Phát triển văn hóa doanh nghiệp, ứng dụng AI vào quy trình HR.
-- **Nguồn nội dung chính xác duy nhất**: CV PDF trong thư mục `CV ref/`. Mọi thông tin trên website phải đối chiếu với CV này.
+- **Nguồn nội dung chính xác duy nhất**: CV PDF `CV ref/Võ Thanh Công_HR Generalist.pdf` (bản cập nhật 11/2026, đã có Vietart F&B). Mọi thông tin trên website phải đối chiếu với CV này. Ngoài ra anh Công có 2 bản CV hướng Sales (B2B, B2C) trên Canva, nhưng portfolio vẫn bám theo bản HR.
 
-⚠️ **KHÔNG đưa địa chỉ/thành phố cụ thể lên website** (không ghi Đà Nẵng, TP HCM...) — anh Công có thể chuyển nơi làm việc trong tương lai. Chỉ ghi tên trường đại học trong phần học vấn vì đó là thông tin lịch sử.
+⚠️ **Quy tắc về địa chỉ:**
+- **Nội dung website** (chữ trên trang, cả bản VI lẫn EN): KHÔNG ghi địa chỉ hay thành phố đang sống/làm việc (không ghi Đà Nẵng, TP HCM...) — anh Công có thể chuyển nơi làm việc, ghi cố định thì phải sửa lại. Chỉ ghi tên trường đại học trong phần học vấn vì đó là thông tin lịch sử.
+- **File CV PDF** (nút Tải CV): được giữ dòng địa chỉ dạng khu vực + sẵn sàng chuyển nơi làm việc, như bản hiện tại "Đà Nẵng or Relocation TPHCM". Đây không tính là vi phạm quy tắc trên. Chỉ cảnh báo nếu CV ghi địa chỉ chi tiết (số nhà, đường, phường).
 
 ## 3. Trạng thái dự án & cấu trúc
 
-**Website sẽ được xây lại từ đầu.** Các file cũ (`index.html`, `style.css`, `script.js`) chỉ dùng để **tham khảo nội dung và ý tưởng** — KHÔNG copy hay kế thừa code cũ.
+**Website đã xây xong và đang chạy.** Sửa trực tiếp trên code hiện tại (`index.html`, `style.css`, `script.js`), giữ nguyên thiết kế và cấu trúc. Chỉ viết lại một phần khi anh Công yêu cầu rõ.
 
 ```
-d:\CV design\
+~/Desktop/Portfolio/   (máy Mac)
 ├── CLAUDE.md          ← file này
-├── index.html         ← sẽ build mới (code cũ chỉ tham khảo)
-├── style.css          ← sẽ build mới
-├── script.js          ← sẽ build mới
+├── index.html         ← cấu trúc trang
+├── style.css          ← giao diện
+├── script.js          ← nội dung song ngữ (vi/en), gallery, hiệu ứng
 ├── CV ref/            ← CV PDF gốc (nguồn nội dung + file cho nút tải CV)
+├── gallery/           ← ảnh minh chứng công việc (khai báo trong galleryItems)
 └── picture/           ← avatar, logo công cụ/kỹ năng (Canva, Excel, AI tools...)
 ```
 
